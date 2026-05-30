@@ -1,0 +1,88 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(49, 49, 48, 0.308);
+    background-position: 500px 100px;
+            align-items: center;
+        }
+        h1 {
+            color: #404553;
+            text-align: center;
+        }
+        
+        header {
+            background-color: rgb(1, 1, 36);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        p {
+            color: #2c3347;
+            text-align: center;
+            margin: 20px;
+            font-size: 24px;
+        };
+        button {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            background-color: rgb(235, 105, 49);
+            padding: 10px;
+            
+        }
+        .tap{
+            display: flex;
+            justify-content: center;
+            background-color: saddlebrown;
+        }
+        <style>
+.footer{
+    background:#c98181;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+    margin-top:50px;
+}
+
+.footer h3{
+    margin-bottom:10px;
+    font-size:28px;
+}
+
+.contact-info p{
+    margin:5px 0;
+}
+
+#topBtn{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    background:#ff9800;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+#topBtn:hover{
+    background:#e68900;
+}
+
+.copyright{
+    margin-top:20px;
+    font-size:14px;
+    color:#ccc;
+}
+</style>
+
+<script>
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+</script>
