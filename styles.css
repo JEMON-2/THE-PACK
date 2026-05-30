@@ -18,6 +18,12 @@
             justify-content: space-between;
             align-items: center;
         }
+ a {
+            color: white;
+            font-optical-sizing: auto;
+            text-decoration: aqua;
+            margin: 0 10px;
+        }
         p {
             color: #2c3347;
             text-align: center;
